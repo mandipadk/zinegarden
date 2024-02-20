@@ -2,10 +2,11 @@
     "name": "zinegarden",
     "version": "0.1.0",
     "dependencies": {
-        "vitepress": "^1.0.0-rc.44"
+        "vitepress": "^1.0.0-rc.44",
+        "vitepress-plugin-tabs": "^0.4.1"
     },
     "scripts": {
         "docs:build": "vitepress build",
-        "docs:preview": "vitepress preview docs"
+        "docs:preview": "vitepress preview"
     }
 }
