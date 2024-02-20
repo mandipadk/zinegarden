@@ -6,6 +6,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 export default defineConfig({
   title: "zine.garden",
   description: "A digital wiki for some personal favourites of mine.",
+  outDir: '.vitepress/dist',
   themeConfig: {
 
     logo: 'logo.svg',

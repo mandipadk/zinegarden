@@ -1,0 +1,11 @@
+{
+    "name": "zinegarden",
+    "version": "0.1.0",
+    "dependencies": {
+        "vitepress": "^1.0.0-rc.44"
+    },
+    "scripts": {
+        "docs:build": "vitepress build zinegarden",
+        "docs:preview": "vitepress preview docs"
+    }
+}
